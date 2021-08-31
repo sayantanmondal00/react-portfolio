@@ -24,5 +24,65 @@
 
     .right{
         flex: 0.5;
+        position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0px;
+            }
+            h2{
+                font-size: 30px;
+            }
+            h3{
+                font-size: 40px;
+                margin: 10px 0px;
+                font-weight: 900;
+                
+                span{
+                    font-size: inherit;
+                    font-weight: 700;
+                    color: crimson;
+                }
+
+                .ityped-cursor {
+                    font-size: 2.4rem;
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+
+        a{
+            position: absolute;
+            bottom: 10px;
+            left: 40%;
+
+            img{
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink{
+                100%{
+                    opacity: 0;
+                }
+            }
+        }
     }
 }
