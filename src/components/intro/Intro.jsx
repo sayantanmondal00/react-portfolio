@@ -10,7 +10,7 @@ export default function Intro() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>
+                    <h2> 
                         Hi There I'm
                     </h2>
                     <h1>
