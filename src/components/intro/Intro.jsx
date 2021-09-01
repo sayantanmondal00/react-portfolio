@@ -11,9 +11,10 @@ export default function Intro() {
             typeSpeed: 80,
             backDelay: 1500, 
             backSpeed: 30,
-            strings: ['Software Developer ', 'Competitive Coder ', 'Designer ', 'Content Creator ' ] 
+            strings: ['Software Developer', 'ML Enthusiast ', 'Graphic Designer ', 'Content Creator ' ] 
         });
     },[])
+    
     return (
         <div className="intro" id="intro">
             <div className="left">
@@ -30,7 +31,7 @@ export default function Intro() {
                         Sayantan Mondal
                     </h1>
                     <h3>
-                        // <span ref={textRef}></span>
+                        // <span ref={textRef}></span> 
                     </h3>
                 </div>
                 <a href="#portfolio">

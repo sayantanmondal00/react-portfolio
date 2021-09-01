@@ -50,6 +50,7 @@
                     font-size: inherit;
                     font-weight: 700;
                     color: crimson;
+
                 }
 
                 .ityped-cursor {
@@ -66,7 +67,15 @@
                     }
                 }
             }
+            h3{
+                span{
+                    &::first-letter{
+                        color: green;
+                    }
+                }
+            }
         }
+
 
         a{
             position: absolute;
